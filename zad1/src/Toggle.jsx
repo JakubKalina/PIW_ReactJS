@@ -60,24 +60,7 @@ class Toggle extends React.Component {
               Pokaż ciekawostkę
             </Button>
           </Row>
-          <Row>
-            {toggleCard()}
-            {/* <Card
-              hoverable
-              style={{ width: 300 }}
-              cover={
-                <img
-                  alt="Morze Martwe"
-                  src="https://zalajkowane.pl/wp-content/uploads/2017/06/morze-martwe-ciekawostki.jpg"
-                />
-              }
-            >
-              <Meta
-                title="Czy wiesz że ..."
-                description="Morze Martwe znajduje się obecnie na poziomie 429 m n.p.m i obniża się około 1 metr na rok"
-              />
-            </Card> */}
-          </Row>
+          <Row>{toggleCard()}</Row>
         </Col>
       </Row>
     );
